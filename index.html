@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <div class="logo"> 
+                <img src="coffeelogo.jpg" alt="Coffee Logo">Besion B.
+            </div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Coffee Shop</h1>
+            <p>The best coffee experience in town!</p>
+            <a href="#products" class="cta-button">Explore Products</a>
+        </div>
+    </section>
+
+
+    <!-- Products Section -->
+<section id="products">
+    <h2>Our Products</h2>
+    <div class="product-grid">
+        <div class="product">
+            <img src="esspreso.png" alt="Espresso">
+            <p><strong>Espresso</strong></p>
+            <p>A rich and bold shot of pure coffee bliss.</p>
+            <p><strong>Price:</strong> $3.00</p>
+            <button class="buy-button">Buy Now</button>
+        </div>
+        <div class="product">
+            <img src="machiatto.webp" alt="Macchiato">
+            <p><strong>Macchiato</strong></p>
+            <p>Perfectly steamed milk with a shot of espresso.</p>
+            <p><strong>Price:</strong> $4.00</p>
+            <button class="buy-button">Buy Now</button>
+        </div>
+        <div class="product">
+            <img src="latte.webp" alt="Latte">
+            <p><strong>Latte</strong></p>
+            <p>Smooth and creamy with a delightful coffee flavor.</p>
+            <p><strong>Price:</strong> $4.50</p>
+            <button class="buy-button">Buy Now</button>
+        </div>
+        <div class="product">
+            <img src="hotchoco.jpg" alt="Hot Chocolate">
+            <p><strong>Hot Chocolate</strong></p>
+            <p>Beat your cold.</p>
+            <p><strong>Price:</strong> $3.80</p>
+            <button class="buy-button">Buy Now</button>
+        </div>
+        <div class="product">
+            <img src="turkcoffee.jpg" alt="Turkish Coffee">
+            <p><strong>Turkish Coffee</strong></p>
+            <p>Beat your cold.</p>
+            <p><strong>Price:</strong> $4.00</p>
+            <button class="buy-button">Buy Now</button>
+        </div>
+        <div class="product">
+            <img src="americano.jpg" alt="Americano">
+            <p><strong>Americano</strong></p>
+            <p>Beat your cold.</p>
+            <p><strong>Price:</strong> $3.50</p>
+            <button class="buy-button">Buy Now</button>
+        </div>
+    </div>
+</section>
+
+   
+
+   
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery-grid">
+            <img src="gallery1.jpg" alt="Coffee">
+            <img src="gallery2.jpg" alt="Coffee">
+            <img src="gallery3.jpg" alt="Coffee">
+            <img src="gallery4.jpg" alt="Coffee">
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials">
+        <h2>Testimonials</h2>
+      
+        <div class="testimonial-grid">
+            <div class="testimonial">
+                <img src="test1.jpg" alt="">
+                <p>"The best coffee in town! I can’t start my day without a cup of Espresso from Coffee Bliss."</p>
+                <p>- John D.</p>
+            </div>
+            <div class="testimonial">
+                <img src="test2.jpg" alt="">
+                <p>"Love the cozy ambiance and the quality of coffee here. It’s a great place to work or relax."</p>
+                <p>- Emily R.</p>
+            </div>
+            <div class="testimonial">
+                <img src="tset3.jpg" alt="">
+                <p>"A perfect spot for a coffee date! The cappuccino is absolutely delicious."</p>
+                <p>- Ben W.</p>
+            </div>
+        </div>
+    </section>
+
+   
+
+
+    <div id="contact" class="contact-section">
+        <h2>Contact Me</h2>
+        <p>If you have any questions or feedback, feel free to reach out to me!</p>
+        <form action="contact.php" method="POST" class="contact-form">
+
+        <form action="your-server-endpoint" method="POST" class="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+    
+            <button type="submit">Send Message</button>
+        </form>
+        
+    </div>
+    
+    </div>
+    <div id="about">
+        <h2>About Me</h2>
+        <p>Welcome to my coffee shop! I'm Besion Bobaj, and I love crafting delicious coffee experiences.</p>
+    
+        <!-- Social Media Links -->
+        <div class="social-icons">
+            <a href="https://www.instagram.com/yourprofile" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.facebook.com/yourprofile" target="_blank">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="mailto:youremail@example.com">
+                <i class="fas fa-envelope"></i>
+            </a>
+        </div>
+    </div>
+    
+    
+    
+      
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Coffee Shop | Designed by Besion B.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
